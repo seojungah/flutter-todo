@@ -11,9 +11,9 @@ class ContentInputWidget extends StatelessWidget {
         // obscureText: true,
         decoration: InputDecoration(
           border: OutlineInputBorder(
-              borderRadius: BorderRadius.all(Radius.circular(20))),
+              borderRadius: BorderRadius.all(Radius.circular(14))),
           contentPadding: EdgeInsets.symmetric(horizontal: 30, vertical: 20),
-          labelText: '',
+          labelText: '오늘 할일',
           hintText: '오늘의 할일을 적어 보세요!',
         ),
       ),
